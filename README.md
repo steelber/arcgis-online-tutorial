@@ -1,7 +1,15 @@
 # arcgis-online-tutorial
 This is a tutorial on the basics of mapping in ArcGIS Online, geared towards Grinnell College students, faculty, and staff. This guide focuses on the Classic Map Viewer.
 
-## What Is ArcGIS Online
+## Table of Contents
+1. [What is ArcGIS Online?](#what-is-arcgis-online)
+2. [Web Maps](#web-maps)
+3. [Layers](#layers)
+4. [Map Accessibility](#map-accessibility)
+5. [Additional Information](#additional-information)
+6. [Resources](#resources)
+
+## What Is ArcGIS Online?
 ArcGIS Online is a cloud-based online mapping software that allows you to create complex digital maps for data analysis, as well as easily share them with others. ArcGIS Online replicates many of the functions of the ArcGIS software application, though it is not quite as powerful.
 
 In this tutorial, you will learn how to use ArcGIS Online by mapping historical data from the [Iowa Township Project](https://dasil.sites.grinnell.edu/2019/04/land-census-and-digital-humanities-the-iowa-township-project/).
@@ -18,28 +26,27 @@ Spatial data can take many forms: for the purposes of this walkthrough, we are u
 > * What do you notice about this data?
 > * What questions do you think this dataset might help to answer, if visualized on a map?
 
-
 ## Web Maps
 What’s a web map? Esri, the company behind ArcGIS and ArcGIS Online, describes a web map as “an interactive display of geographic information that you can use to tell stories and answer questions” (source: [Web maps](https://doc.arcgis.com/en/arcgis-online/reference/what-is-web-map.htm)).
 
 ### Creating a New Map
 Click **Map** in the top level menu of your ArcGIS Online homepage to create a new map. From there, you will be taken to a new blank map for you to make your own!
 
-*IMAGE*
+![Screenshot of the ArcGIS Online user homepage](/Images/AO-homepage.png)
 
 *Note: for the purposes of this tutorial, we will use Map Viewer Classic, which allows us to upload data by file. The new Map Viewer does not have this feature yet. Click “Open in Map Viewer Classic” at the top right of the map menu to switch over.*
 
 ### Customizing Your Map’s Appearance
 You can customize the way your map looks by clicking **Basemap** in the top level menu of the map view, and then selecting your chosen basemap. You can change this at any time, so can come back and make edits for the best base map for your purposes once your data has been added to the map.
 
-*IMAGE*
+![Screenshot of the ArcGIS Online basemap options](/Images/AO-Web-Maps-Basemap.png)
 
 > Let’s reflect: how might different basemaps influence a viewer’s experience of a digital map?
 
 ### Saving Your Map
 Click the **Save** button on the top level menu of the map view, then click **Save As** to save a new map or a new copy of an existing map: you will be prompted to give your new map a title and tags (required, but you can choose any you would like), and to add a summary, if desired. If you are working with a pre-existing map, just click *Save* to keep saving it to the same place – *make sure to do this regularly while you are working so your changes are saved*. 
 
-*IMAGE*
+![Screenshot of the ArcGIS Online map menu](/Images/AO-Web-Maps-Menu.png)
 
 ### Returning to an Existing Map
 Click *Content* in the top level menu (available when you click the *Home* button if you are currently viewing a map or other content) to see all your saved content and return to an existing map. Click the title of an existing map, then click the *Open in Map Viewer* button (top right) to continue editing.
@@ -62,7 +69,7 @@ There are a couple different ways to add layers – for the purposes of this tut
 
 Once a layer has been added to your map, a variety of options appear for you when you hover over a layer’s name in the Content menu of your map. You can use the checkbox by the layer’s name to show/hide layers as needed.
 
-*IMAGE*
+![Screenshot of the ArcGIS Online layer menu options](/Images/AO-Layer-Menu.png)
 
 From left to right:
 * The **Show Legend** button pops out your layer’s legend for you.
@@ -73,7 +80,7 @@ From left to right:
 ** Per Esri: “If your map has a layer with a large number of points, you can configure clustering to make it easier to visually extract meaningful information from your data.” (Source: [Configure clustering](https://doc.arcgis.com/en/arcgis-online/reference/configure-clustering.htm))
 * The **More Options** button lets you select from a variety of other customization and viewing options, as needed.
 
-*IMAGE*
+![Screenshot of the ArcGIS Online layer menu "More Options"](/Images/AO-More-Options.png)
 
 ### Making Copies of Layers
 You may find it helpful to make copies of your layers, so you can use the separate copies to analyze different aspects of the data. To do so, simply click the “more options” button under the layer’s name when you hover over it, and select **Copy**. You can rename your copy using the **Rename** option under the same more options menu.
@@ -97,11 +104,13 @@ For numeric data (acreage, ages, number of people in a household, number of gran
 * Types (Unique symbols), which shows different categories as different colors
 * and for points data, Heat Map, which shows areas of high activity in colors that appear “hotter”
 
-*IMAGE*
+![Screenshot of an ArcGIS Online map. On the left, a pane with layer visualization choices, with Counts and Amounts (sizes) option selected. And on the right, a map with points plotted for the town of Grinnell in 1900.](/Images/AO-Layers-Counts-and-Amounts-Size-i-Dark.png)
 
 Click the **Options** button at the center of the selected drawing style to customize the visualization on your map. Each of the options outlined can be customized – both the visual aspects (like size, color, symbol, transparency) and some of the numeric aspects (such as data classification and breakpoints).
 
-*IMAGE*
+![Screenshot of the options for customizing a data visualization option in ArcGIS Online](/Images/AO-Layers-Counts-and-Amount-Size-Options-i.png)
+
+![Screenshot of the options for customizing a data visualization symbol in ArcGIS Online](/Images/AO-Layers-Counts-and-Amount-Size-Symbol-Options.png)
 
 After selecting an attribute from the dropdown, you can click **Add attribute** to add a second attribute, if certain conditions are met: namely, one of the attributes must be a numeric one and the other must be a categorical one. You can then customize the appearances of both. You can use this feature to map two attributes at once, for example, Total Household size and whether the family owns or rents their home. If the two attributes you want to map cannot be mapped together on a single layer, you can create multiple layers and adjust their transparencies to show overlap or showcase them in separate map images. Once you’re finished customizing, make sure to click the blue **Done** button at the bottom of the viewing pane to make sure your changes are saved.
 
@@ -113,7 +122,7 @@ After selecting an attribute from the dropdown, you can click **Add attribute** 
 ### Configuring Pop-Ups
 You can configure the pop-ups that appear when you click on your data points. By default, they show all of the information from that point’s row in your data table – but some or most of this information may not be needed depending on what you are trying to showcase with your map. To configure a pop-up, hover over the layer you’re working with and click the **More Options** button, then the **Configure Pop-Up** option.
 
-*IMAGE*
+![Screenshot of the ArcGIS Online configure pop-up options](/Images/AO-Layers-Configure-Pop-Up.png)
 
 At the top of the pane, you can select a pop-up title based on an attribute. In the **Display** dropdown below, you can decide if you want to display:
 * a list of attributes (which you can customize below using the **Configure Attributes** – you can choose which ones you want to appear)
@@ -121,7 +130,7 @@ At the top of the pane, you can select a pop-up title based on an attribute. In 
 * a custom attribute display
 * no attribute information
 
-*IMAGE*
+![Screenshot of the ArcGIS Online pop-up custom attribute display pane](/Images/AO-Layers-Custom-Pop-Up.png)
 
 Don’t forget to click the **OK** button at the bottom of the pane when you’re done customizing your pop-up, to save your changes. In the case of a custom attribute display, you can click the green Configure button and lay out the information you want to display. You will see a basic text editor for formatting, and you can use the small + button to pull in the IDs of the attributes you want to display. When you’re finished, click the blue OK button at the bottom of your text box.
 
@@ -170,7 +179,7 @@ See more on analysis from Esri’s help documentation: [Perform Analysis](https:
 ### Creating a Web App
 A web app allows you to share a customized and streamlined view of your map with external viewers. Changes made to your map are reflected on its web app version. If you are interested in playing around with this feature and sharing your map as a web app, you can follow these [web app instructions](https://doc.arcgis.com/en/arcgis-online/create-maps/create-map-apps.htm#ESRI_SECTION1_2F3804B3E2C849F997784C121868A242) from Esri.
 
-*IMAGE*
+![Screenshot of the ArcGIS Online "Create a New Web App" menu with various web app options](/Images/AO-Web-Apps-Options.png)
 
 ### New Map Viewer
 Esri is in the process of releasing a new Map Viewer. For the purposes of this tutorial, you are using the older Classic Viewer, as the new viewer is still missing a few useful features. If you would like to learn more about the new viewer and some of its new features, you can read this article from Esri, [“New Map Viewer in General Availability.”](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/new-map-viewer-in-general-availability/) At this time, there are no concrete plans to sunset the Classic Viewer: this information will be pushed out if and as plans change.

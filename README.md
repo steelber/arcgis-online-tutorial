@@ -186,7 +186,7 @@ Esri is in the process of releasing a new Map Viewer. For the purposes of this t
 
 ## Going Further
 If you want to go further in your exploration of ArcGIS Online, you can optionally try some of the following:
-* Download some other Iowa Township Project datasets from this repository and try mapping them. There are both CSVs and shapefiles with additional data. Try comparing and contrasting historical data from 1900 and 1920.
+* Download some other Iowa Township Project datasets from this repository and try mapping them. There is a [CSV with 1920s data](/Grinnell_1920_Geocoding_Result_Tidied.csv) and [shapefiles](/Shapefiles) with additional data. Try comparing and contrasting historical data from 1900 and 1920.
 * Try playing around with some of the [Analysis](https://doc.arcgis.com/en/arcgis-online/analyze/perform-analysis.htm) and other Publisher features, once your Publisher account has been enabled. Test out hosting the CSV or shapefile data as a [hosted layer](https://doc.arcgis.com/en/arcgis-online/manage-data/hosted-web-layers.htm) within ArcGIS Online, rather than adding the file directly to a map.
 * Use ArcGIS Online’s [browse and search features](https://doc.arcgis.com/en/arcgis-online/reference/search.htm) under the “Add” section to add additional layers of content to your map: you can find data created and curated by a variety of other organizations (such as recent federal census data, for example).
 * Try building out a StoryMap with additional content to contextualize your map, following these [Getting Started](https://doc.arcgis.com/en/arcgis-storymaps/get-started/what-is-arcgis-storymaps.htm) instructions from Esri.

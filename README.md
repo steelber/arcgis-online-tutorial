@@ -69,7 +69,7 @@ There are a couple different ways to add layers – for the purposes of this tut
 
 Once a layer has been added to your map, a variety of options appear for you when you hover over a layer’s name in the Content menu of your map. You can use the checkbox by the layer’s name to show/hide layers as needed.
 
-![Screenshot of the ArcGIS Online layer menu options](/Images/AO-Layer-Menu.png)
+![Screenshot of the ArcGIS Online layer menu options](/Images/AO-Layers-Layer-Menu.png)
 
 From left to right:
 * The **Show Legend** button pops out your layer’s legend for you.
@@ -80,7 +80,7 @@ From left to right:
 ** Per Esri: “If your map has a layer with a large number of points, you can configure clustering to make it easier to visually extract meaningful information from your data.” (Source: [Configure clustering](https://doc.arcgis.com/en/arcgis-online/reference/configure-clustering.htm))
 * The **More Options** button lets you select from a variety of other customization and viewing options, as needed.
 
-![Screenshot of the ArcGIS Online layer menu "More Options"](/Images/AO-More-Options.png)
+![Screenshot of the ArcGIS Online layer menu "More Options"](/Images/AO-Layers-More-Options.png)
 
 ### Making Copies of Layers
 You may find it helpful to make copies of your layers, so you can use the separate copies to analyze different aspects of the data. To do so, simply click the “more options” button under the layer’s name when you hover over it, and select **Copy**. You can rename your copy using the **Rename** option under the same more options menu.

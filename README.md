@@ -39,7 +39,7 @@ Click **Map** in the top level menu of your ArcGIS Online homepage to create a n
 ### Customizing Your Map’s Appearance
 You can customize the way your map looks by clicking **Basemap** in the top level menu of the map view, and then selecting your chosen basemap. You can change this at any time, so can come back and make edits for the best base map for your purposes once your data has been added to the map.
 
-![Screenshot of the ArcGIS Online basemap options](/Images/AO-Web-Maps-Basemap.png)
+![Screenshot of the ArcGIS Online basemap options](/Images/AO-Basemap.png)
 
 > Let’s reflect: how might different basemaps influence a viewer’s experience of a digital map?
 

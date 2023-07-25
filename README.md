@@ -1,4 +1,4 @@
-# arcgis-online-tutorial
+# ArcGIS Online Tutorial
 This is a tutorial on the basics of mapping in ArcGIS Online, geared towards Grinnell College students, faculty, and staff. This guide focuses on the Classic Map Viewer.
 
 ## Table of Contents
